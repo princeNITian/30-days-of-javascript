@@ -1,2 +1,8 @@
 # 30-days-of-javascript
 This repository is for keeping record of 30 Days of Javascript.
+
+| Days | Description | Date |
+| ----------- | ----------- | ----------- |
+| [Day1](day1.md) | Data Type and Operators | `Jul 18, 2021`
+
+
