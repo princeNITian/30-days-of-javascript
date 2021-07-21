@@ -6,3 +6,4 @@ This repository is for keeping record of 30 Days of Javascript.
 | [Day1](day1.md) | Data Type and Operators | `Jul 18, 2021`
 | [Day2](day2.md) | Bindings, Conditional, Loops | `Jul 19, 2021`
 | [Day3](day3.md) | Functions | `Jul 20, 2021`
+| [Day4](day4.md) | Objects and Arrays | `Jul 21, 2021`
