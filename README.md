@@ -10,4 +10,4 @@ This repository is for keeping record of 30 Days of Javascript.
 | [Day5](day5.md) | Higher Order Functions | `Jul 22, 2021`
 | [Day6](day6.md) | Problem Solving | `Jul 23, 2021`
 | [Day7](day7.md) | Classes and Objects | `Jul 24, 2021`
-| [Day8](day8.md) | Memory Game5| `Jul 25, 2021`
+| [Day8](day8.md) | Memory Game | `Jul 25, 2021`
