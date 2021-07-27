@@ -12,3 +12,4 @@ This repository is for keeping record of 30 Days of Javascript.
 | [Day7](day7.md) | Classes and Objects | `Jul 24, 2021`
 | [Day8](day8.md) | Memory Game | `Jul 25, 2021`
 | [Day9](day9.md) | Project: A Robot | `Jul 26, 2021`
+| [Day10](day10.md) | Bugs and Errors | `Jul 27, 2021`
