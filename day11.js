@@ -47,6 +47,7 @@ console.log(match.index);
 // → 8
 console.log("one two 100".match(/\d+/));
 
+// REGULAR EXPRESSIONS
 let quotedText = /'([^']*)'/;
 console.log(quotedText.exec("she said 'hello'"));
 // → ["'hello'", "hello"]
@@ -55,6 +56,14 @@ console.log(/bad(ly)?/.exec("bad"));
 // → ["bad", undefined]
 console.log(/(\d)+/.exec("123"));
 // → ["123", "3"]
+
+function getDate(string) {
+    let [_, month, day, year] =
+      /(\d{1,2})-(\d{1,2})-(\d{4})/.exec(string);
+    return new Date(year, month - 1, day);
+  }
+  console.log(getDate("1-30-2003"));
+  // → Thu Jan 30 2003 00:00:00 GMT+0100 (CET)
 
 console.log(new Date());
 // → Mon Nov 13 2017 16:19:11 GMT+0100 (CET)
@@ -68,11 +77,3 @@ console.log(new Date(2013, 11, 19).getTime());
 // → 1387407600000
 console.log(new Date(1387407600000));
 // → Thu Dec 19 2013 00:00:00 GMT+0100 (CET)
-
-function getDate(string) {
-    let [_, month, day, year] =
-      /(\d{1,2})-(\d{1,2})-(\d{4})/.exec(string);
-    return new Date(year, month - 1, day);
-  }
-  console.log(getDate("1-30-2003"));
-  // → Thu Jan 30 2003 00:00:00 GMT+0100 (CET)
